@@ -116,13 +116,12 @@ First I was also hesitate to try custom PCB my belief was they are much expensiv
 but then I came to know about [JLCPCB.com](https://jlcpcb.com/IAT) and I was totally surprised how low price PCB's are they offering 
 not only PCB [JLCPCB.com](https://jlcpcb.com/IAT) is one-stop service from  PCB design and PCB prototype to PCB assembly to PCB enclosures,
 
-SMT Assembly service of [JLCPCB.com](https://jlcpcb.com/IAT) is cherry on top now get your PCB fully assembled and save our time and money
-Select components for your PCB from there Parts Library of 200k+ in-stock components (689 Basic components and 200k+ Extended components)
+SMT Assembly service of [JLCPCB.com](https://jlcpcb.com/IAT) is cherry on top now get your PCB fully assembled and save your time and money
+Select components for your PCB from there Parts Library of 200k+ in-stock components
 they are offering $27 valued New User coupon  & $24 SMT coupons every month
 $8.00 setup fee, and $0.0017  per joint
 
-Now no need to order components 
-separately for you PCB and get free from stress of soldering them on PCB just try PCB SMT assembly service and get you PCB with components pre assembled ready for the project
+Now no need to order components separately for you PCB and get free from stress of soldering them on PCB just try PCB SMT assembly service and get you PCB with components pre assembled and ready for the project
 
 For more detials & offers please visit [JLCPCB.com](https://jlcpcb.com/IAT)
 
