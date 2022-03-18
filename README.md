@@ -132,7 +132,7 @@ For more detials & offers please visit [JLCPCB.com](https://jlcpcb.com/IAT)
 
 After downloading the Garber file you can easily order the PCB
 
-1. Visit https://jlcpcb.com/RHS and Sign in / Sign up
+1. Visit [JLCPCB.com](https://jlcpcb.com/IAT) and Sign in / Sign up
 
 2. Click on the QUOTE NOW button.
 
