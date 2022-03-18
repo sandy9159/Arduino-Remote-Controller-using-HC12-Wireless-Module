@@ -1,6 +1,6 @@
 # Arduino-Remote-Controller-using-HC12-Wireless-Module
 
-![image](https://user-images.githubusercontent.com/19898602/158982400-c2bc7faa-6d5e-4a36-8929-2480c68f8174.png)
+![image](https://user-images.githubusercontent.com/19898602/159052217-23807555-2f6b-4b67-bb45-47d1470b664f.png)
 
 
 I will give you the complete schematics, codes and complete layout of all the boards used in this Arduino RC robot to make one yourself. So stay tuned!
