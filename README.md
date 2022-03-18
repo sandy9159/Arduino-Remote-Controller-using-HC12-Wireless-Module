@@ -130,4 +130,41 @@ For more detials & offers please visit [JLCPCB.com](https://jlcpcb.com/IAT)
 ![image](https://user-images.githubusercontent.com/19898602/134224512-bea8d1c8-9ebe-448d-bbba-0cbecb42d528.png)![image](https://user-images.githubusercontent.com/19898602/130722585-b5268db1-5f17-428f-ba60-b823140f2a70.png)
 
 
+After downloading the Garber file you can easily order the PCB
+
+1. Visit https://jlcpcb.com/RHS and Sign in / Sign up
+
+2. Click on the QUOTE NOW button.
+
+3 Click on the "Add your Gerber file" button. Then browse and select the Gerber file you have downloaded.
+
+![image](https://user-images.githubusercontent.com/19898602/158983798-c8240d19-3e15-4db9-b0ab-0a5f17377eca.png)
+
+
+
+4. Set the required parameter like Quantity, PCB masking color, etc
+
+5. After selecting all the Parameters for PCB click on SAVE TO CART button.
+
+![image](https://user-images.githubusercontent.com/19898602/158983820-51e12d9e-5622-4f24-a560-fdf047e268b3.png)
+
+
+
+![image](https://user-images.githubusercontent.com/19898602/158983871-d25b0c4b-edb8-4894-b1bb-e07f1b5227b9.png)
+
+6. Type the Shipping Address.
+
+7. Select the Shipping Method suitable for you.
+
+8. Submit the order and proceed with the payment. You can also track your order from the JLCPCB.com.
+
+My PCBs took 2 days to get manufactured and arrived within a week using the DHL delivery option.
+
+PCBs were well packed and the quality was really good at this affordable price.
+
+![image](https://user-images.githubusercontent.com/19898602/158983899-ab2d93d6-b42f-4347-82ec-d3f78b3986e6.png)
+
+
+![image](https://user-images.githubusercontent.com/19898602/158983956-0cf1954d-3f38-48ce-988f-04001654b89f.png)
+
 
