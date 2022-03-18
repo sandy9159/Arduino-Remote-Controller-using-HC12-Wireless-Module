@@ -5,9 +5,6 @@
 
 I will give you the complete schematics, codes and complete layout of all the boards used in this Arduino RC robot to make one yourself. So stay tuned!
 
-# Arduino Off-Road Robot Demo
-
-First let us take a look at our Arduino off-road robot and how it performs on rough terrain.
 
 
 # 6-Wheel Drive Rough Terrain Robot Chassis
@@ -109,5 +106,28 @@ In the PCB version, I added 4 switches which I will be using for the next projec
 I also added a 7805 regulator which will help me to provide an input voltage between 7V and 35V so that I can use a 5V USB power supply, 9V battery or even 12 V Lipo battery without any issues. I also added some indicator LEDs that will let me know if something stopped working. You will find the circuit in the link below.
 
 ![image](https://user-images.githubusercontent.com/19898602/158982303-2216f4cf-815c-45d3-a95f-989e0c4c7d8c.png)
+
+PCB file : -https://drive.google.com/file/d/0B2Iyu3WauhmCdTVxdWJNODhjV29xSXJSZ1k2WGdYaWtXX1Zn/view?usp=sharing&resourcekey=0-vk370xUTQ4HEMvU-ZNROjQ
+
+If you guys planning to order PCB I will suggest you to go with [JLCPCB.com](https://jlcpcb.com/IAT)
+
+First I was also hesitate to try custom PCB my belief was they are much expensive.
+
+but then I came to know about [JLCPCB.com](https://jlcpcb.com/IAT) and I was totally surprised how low price PCB's are they offering 
+not only PCB [JLCPCB.com](https://jlcpcb.com/IAT) is one-stop service from  PCB design and PCB prototype to PCB assembly to PCB enclosures,
+
+SMT Assembly service of [JLCPCB.com](https://jlcpcb.com/IAT) is cherry on top now get your PCB fully assembled and save our time and money
+Select components for your PCB from there Parts Library of 200k+ in-stock components (689 Basic components and 200k+ Extended components)
+they are offering $27 valued New User coupon  & $24 SMT coupons every month
+$8.00 setup fee, and $0.0017  per joint
+
+Now no need to order components 
+separately for you PCB and get free from stress of soldering them on PCB just try PCB SMT assembly service and get you PCB with components pre assembled ready for the project
+
+For more detials & offers please visit [JLCPCB.com](https://jlcpcb.com/IAT)
+
+
+![image](https://user-images.githubusercontent.com/19898602/134224512-bea8d1c8-9ebe-448d-bbba-0cbecb42d528.png)![image](https://user-images.githubusercontent.com/19898602/130722585-b5268db1-5f17-428f-ba60-b823140f2a70.png)
+
 
 
