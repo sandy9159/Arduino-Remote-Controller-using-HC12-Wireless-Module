@@ -168,3 +168,125 @@ PCBs were well packed and the quality was really good at this affordable price.
 ![image](https://user-images.githubusercontent.com/19898602/158983956-0cf1954d-3f38-48ce-988f-04001654b89f.png)
 
 
+# Coding
+
+Now it’s time to upload the code. This is the code. I will share the link in the description, you can simply copy and paste the code and upload it to your controller.
+
+
+Basically, what this code do is, it will start a software serial connection at pin 10 and 11 where we connect the Tx and Rx pins of HC12 wireless module. 
+
+Arduino will read the analog voltage of the pins A0 – A4 where we connect the sensor inputs (accelerometer and joystick) and store their values in different variables. 
+
+Then it will create a single long string by combining all the data which will then be send to the Remotely Controlled Robot.
+
+Once you are done uploading, open up the serial monitor.
+
+You will see all the sensor data that is being read by the Arduino as a Single line separated by commas (, ). 
+
+This is how our data will be sent to the Remote Robot.
+
+
+# The Robot
+Now it’s time to receive the data from the remote controller. In the receiving unit, I used an Arduino nano clone and another HC12 as receiver.
+
+![image](https://user-images.githubusercontent.com/19898602/158984885-55c9aaff-f7c3-4665-9c9a-dd7b02fb6fe0.png)
+
+
+ou can use any motor driver board to drive the motors in the robot. This robot chassis have 6 high speed DC Motors with a speed of 17000 RPM. Each motor draws a current of about 350 milli ampere. As you might know, for almost all of my Robots, I use either L293D motor driver or L298N motor driver.
+
+Since we have 6 DC motors, I decided to go for another high current motor driver, named VNH 2SP30, that can provide a peak current of 30 amperes.
+
+If you are not familiar with this VNH2SP30 High Current DC Motor Driver, please click this link to know more about it.
+
+This motor driver board can control only one motor at a time. So here we will be using two motor driver boards to control all the DC motors. 
+
+
+# The Circuit
+
+Next step, Connecting all the components together. We will connect the HC12 module to the Arduino, which will process the data coming from the HC12 module of the Remote controller.
+
+Once the data is processed, we will drive the motors using the high current DC motor driver connected to the Arduino. The whole circuit will be powered using the LiPo battery.
+
+Connections for the Circuit of RC Robot
+
+Arduino —— HC12
+
+5 Vout – VCC Arduino
+Gnd – Gnd
+10 – TX
+11 – Rx
+Arduino —– Motor Drivers
+
+Pin 12 – Motor Driver 1 In1
+Pin 13 – Motor Driver 1 In2
+Pin 3 – Motor Driver 1 PWM
+Pin 8 – Motor Driver 2 In1
+Pin 7 – Motor Driver 2 In2
+Pin 5 – Motor Driver 2 PWM
+Motor Drivers —– Motor
+
+Motor Driver 1 Out 1 – Motor 1 Terminal 1
+Motor Driver 1 Out 2 – Motor 1 Terminal 2
+Motor Driver 2 Out 1 – Motor 2 Terminal 1
+Motor Driver 2 Out 2 – Motor 2 Terminal 2
+Motor + – 12 V
+Motor – – 0 V
+Vcc – 5 V
+Gnd – 0 V
+
+
+# Arduino Code
+
+~~~
+
+#include <SoftwareSerial.h>
+#include <Wire.h>
+SoftwareSerial HC12(10, 11);
+
+int x;
+int y;
+int lr;
+int bf;
+int sw;
+
+void setup()
+{ 
+HC12.begin(9600);
+Serial.begin(9600);
+pinMode(A0, INPUT);
+pinMode(A1, INPUT);
+pinMode(A2, INPUT);
+pinMode(A3, INPUT);
+pinMode(A4, INPUT);
+pinMode(2, OUTPUT);
+
+}
+void loop()
+{
+digitalWrite(A0,0);
+digitalWrite(2, HIGH);
+x = analogRead(A0);
+y = analogRead(A1);
+
+lr = analogRead(A3);
+bf = analogRead(A2);
+sw = analogRead(A4);
+
+HC12.print(x);
+HC12.print(",");
+HC12.print(y);
+HC12.print(",");
+HC12.print(lr);
+HC12.print(",");
+HC12.print(br);
+HC12.print(",");
+HC12.print(sw);
+HC12.println("");
+
+delay(100);
+}
+
+~~~
+
+
+
