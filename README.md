@@ -212,27 +212,47 @@ Connections for the Circuit of RC Robot
 Arduino —— HC12
 
 5 Vout – VCC Arduino
+
+
 Gnd – Gnd
+
 10 – TX
+
 11 – Rx
+
 Arduino —– Motor Drivers
 
+
 Pin 12 – Motor Driver 1 In1
+
 Pin 13 – Motor Driver 1 In2
+
 Pin 3 – Motor Driver 1 PWM
+
 Pin 8 – Motor Driver 2 In1
+
 Pin 7 – Motor Driver 2 In2
+
 Pin 5 – Motor Driver 2 PWM
+
 Motor Drivers —– Motor
 
 Motor Driver 1 Out 1 – Motor 1 Terminal 1
+
 Motor Driver 1 Out 2 – Motor 1 Terminal 2
+
 Motor Driver 2 Out 1 – Motor 2 Terminal 1
+
 Motor Driver 2 Out 2 – Motor 2 Terminal 2
+
 Motor + – 12 V
+
 Motor – – 0 V
+
 Vcc – 5 V
+
 Gnd – 0 V
+
 
 
 # Arduino Code
